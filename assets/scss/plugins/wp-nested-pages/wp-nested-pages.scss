@@ -1,0 +1,29 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+    .nestedpages-settings-general-wrapper {
+        .nestedpages-settings-table .row-container .row {
+            .description {
+                background-color: $dark-grey;
+                color: $light-grey;
+
+                p {
+                    color: $light-grey;
+
+                    strong {
+                        color: $light-grey;
+                    }
+                }
+            }
+            .field {
+                background-color: $ultra-grey;
+            }
+        }
+    }
+    .nestedpages-settings-support {
+        background-color: $ultra-grey;
+    }
+    .nestedpages-settings-table .row-container .head {
+        background-color: $dark-grey;
+    }
+}
+

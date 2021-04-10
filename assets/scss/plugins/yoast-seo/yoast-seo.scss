@@ -1,0 +1,274 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+  .wpseo-metabox-content {
+
+    .wpseo-metabox-menu {
+
+      background-color: $ultra-grey;
+
+      ul {
+        li {
+          &.active,
+          &:hover {
+            a {
+              background-color: $ultra-grey;
+              color: $light-grey;
+            }
+          }
+
+          background-color: $dark-grey;
+          color: $light-grey;
+
+        }
+      }
+    }
+
+    .Alert__AlertContainer-sc-6o5k96-0 {
+      background-color: $dark-grey;
+      border-color: $dark-grey;
+      color: $light-grey;
+    }
+
+    .wpseo-meta-section-react.active,
+    .wpseo-meta-section.active {
+      background-color: $ultra-grey;
+      color: $light-grey;
+    }
+
+    .Collapsible__StyledContainer-sc-13a0b13-1 {
+      background-color: $ultra-grey;
+    }
+
+    .Collapsible__StyledHeadingLevel-sc-13a0b13-4 {
+
+      background-color: $dark-grey;
+
+      button {
+
+        background-color: $dark-grey;
+
+        svg {
+          color: $light-grey;
+        }
+
+      }
+
+    }
+
+    legend,
+    .yoast-field-group__title {
+      color: $light-grey;
+    }
+
+    .Label__SimulatedLabel-tvz6tj-0 {
+      color: $light-grey;
+    }
+
+    #yoast-snippet-preview-container {
+
+      background-color: $dark-grey;
+
+      .SnippetPreview__MobileDescription-waz8ku-12 {
+        color: $light-grey;
+      }
+
+    }
+
+    .draftJsMentionPlugin__mention__29BEd {
+      background-color: $primary;
+    }
+
+    .Button__BaseButton-grb41s-4,
+    #yoast-get-related-keyphrases-metabox {
+      background-color: $primary;
+      border-color: $primary;
+      color: $light-grey;
+    }
+
+    .InputContainer__VariableEditorInputContainer-fmvk3g-0,
+    div[role="listbox"] {
+      background-color: $dark-grey;
+      border-color: $dark-grey;
+      color: $light-grey;
+      box-shadow: 0px 5px 5px 5px $ultra-grey;
+    }
+    div[aria-selected="true"] {
+      background-color: $ultra-grey;
+    }
+
+    progress {
+      background-color: #000;
+      border-color: #000;
+    }
+
+    #snippet-editor-field-slug {
+      background-color: $dark-grey;
+    }
+
+    .ContentAnalysis__ContentAnalysisContainer-sc-14uwo9d-0 {
+      background-color: $ultra-grey;
+    }
+
+  }
+
+  .yoast-select__control {
+    border-color: $ultra-grey;
+  }
+
+  .yoast-select-container,
+  .yoast-select__menu {
+
+    background-color: $dark-grey;
+
+    .yoast-select__option {
+      &:hover,
+      &.yoast-select__option--is-focused {
+        background-color: $ultra-grey;
+        color: $light-grey;
+      }
+    }
+
+    .yoast-select__control--menu-is-open,
+    .yoast-select__control--is-focused {
+      box-shadow: none;
+    }
+
+  }
+
+  .yoast-field-group__select select:focus,
+  .yoast-field-group select:focus {
+    box-shadow: none;
+  }
+
+  .yoast-list--usp li {
+    color: $light-grey;
+  }
+
+  .yoast-promo-extension {
+    background-color: $ultra-grey;
+    border-color: $ultra-grey;
+    color: $light-grey;
+  }
+
+  .yoast-notifications {
+
+    .yoast-container {
+
+      background-color: $ultra-grey;
+      border-color: $ultra-grey;
+
+      h3.yoast-notifications-header {
+        border-bottom: 1px solid $ultra-grey;
+        background-color: $dark-grey;
+      }
+
+      .yoast-notification {
+        border-left: 4px solid $dark-grey;
+        background: $dark-grey;
+      }
+
+    }
+
+  }
+
+  .yoast_premium_upsell {
+    border-color: $ultra-grey;
+    background-color: $ultra-grey;
+  }
+
+  .yoast-button-upsell,
+  .UpsellLinkButton-sc-1velt6w-0 {
+    color: $dark-grey;
+  }
+
+  .yoast-sidebar__section {
+    border-color: $ultra-grey;
+    background-color: $ultra-grey;
+  }
+
+  .switch-light.switch-yoast-seo > span,
+  .switch-toggle.switch-yoast-seo {
+    border: 1px solid $dark-grey;
+    background-color: $dark-grey;
+  }
+
+  .switch-light.switch-yoast-seo input:checked ~ span span:first-child,
+  .switch-light.switch-yoast-seo span span,
+  .switch-toggle.switch-yoast-seo label {
+    color: $light-grey;
+  }
+
+  .switch-light.switch-yoast-seo a,
+  .switch-toggle.switch-yoast-seo a {
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  .switch-candy a {
+    box-shadow: none;
+  }
+
+  .wpseo_content_wrapper .paper.tab-block.search-appearance {
+    background-color: $ultra-grey;
+  }
+
+  .wpseo_content_wrapper {
+
+    #separator input.radio:checked + label {
+      border-color: $primary;
+      background-color: $dark-grey;
+    }
+
+    .kuRQio {
+      color: $light-grey;
+    }
+
+    .InputContainer__VariableEditorInputContainer-fmvk3g-0,
+    div[role="listbox"] {
+      background-color: $dark-grey;
+      border-color: $dark-grey;
+      color: $light-grey;
+      box-shadow: 0px 5px 5px 5px $ultra-grey;
+    }
+    div[aria-selected="true"] {
+      background-color: $ultra-grey;
+    }
+
+    .draftJsMentionPlugin__mention__29BEd {
+      background-color: $primary;
+    }
+
+    .Button__BaseButton-grb41s-4 {
+      background-color: $primary;
+      border-color: $primary;
+      color: $light-grey;
+    }
+
+    .yoast-styled-select:after {
+      border-color: $light-grey transparent transparent;
+    }
+
+    .Alert__AlertContainer-sc-6o5k96-0 {
+      background-color: $dark-grey;
+      border-color: $dark-grey;
+      color: $light-grey;
+    }
+
+    .collapsible-header,
+    .collapsible-header button {
+      background-color: $dark-grey;
+      border-color: $dark-grey;
+      color: $light-grey;
+    }
+
+    .yoast-field-group__title {
+      color: $light-grey;
+    }
+
+    .wpseo-admin-submit.wpseo-admin-submit-fixed {
+      background-color: $dark-grey;
+    }
+
+  }
+
+}

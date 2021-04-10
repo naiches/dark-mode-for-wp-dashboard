@@ -1,0 +1,274 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+    #jp-plugin-container {
+        background-color: $base-grey;
+
+        .jp-form-block-fade {
+            background: repeating-linear-gradient( 45deg, #191f2544, #191f2544 10px, #32373c4f 10px, #32373c4f 20px );
+        }
+
+        .dops-search .dops-search__icon-navigation {
+            background-color: $ultra-grey;
+        }
+
+        .dops-banner__info .dops-banner__description, 
+        .dops-banner__info .dops-banner__list, 
+        .dops-banner__info .dops-banner__title {
+            color: $light-grey;
+        }
+
+        .jp-masthead {
+            background-color: $ultra-grey;
+
+            .jp-masthead__logo-link {
+                svg {
+                    fill: $light-grey;
+                }
+            }
+
+            .jp-masthead__nav {
+                .dops-button-group {
+                    .dops-button {
+                        background-color: $dark-silver;
+                        color: $white;
+                        border: 0;  
+                    }
+                    .dops-button.is-primary {
+                        background-color: $blue;
+                    }           
+                }
+            }
+        }
+
+        .jp-lower {
+            .dops-navigation {
+                .dops-section-nav {
+                    background-color: $dark-grey;
+                    box-shadow: none;
+                }
+            }
+            .dops-card {
+                background-color: $ultra-grey;
+                box-shadow: none;
+            }
+            .dops-section-header {
+                background-color: $dark-grey;
+
+                .dops-section-header__label {
+                    color: $light-grey;
+
+                    .dops-section-header__label-text {
+                        &:before {
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .dops-chart {
+            background-color: $dark-grey;
+            color: $light-grey;
+
+            .dops-chart__empty_notice {
+                background-color: $dark-grey;
+                color: $light-grey;  
+            }
+            .dops-chart__y-axis-markers > div {
+                color: $light-grey;  
+            }
+            .dops-chart__y-axis > div {
+                color: $light-grey;  
+            }
+            .dops-chart__x-axis > div {
+                color: $light-grey; 
+            }
+            .dops-chart__bar-section.is-ghost:after {
+                background-image: linear-gradient(180deg,hsla(0, 0%, 100%, 0),hsl(81.7, 64.4%, 49.6%));
+            }
+        }
+        .jp-apps-card__top {
+            background-color: $dark-grey;
+            color: $light-grey;
+        }
+        .jp-landing__plan-features-card {
+            background-color: $dark-grey;
+            box-shadow: none;  
+        }
+        .jp-recommendations-question__main {
+            background: $dark-grey;
+            box-shadow: none;
+            border: 0;
+
+            .jp-checkbox-answer__container {
+                background: $ultra-grey;                
+                border: 0;
+            }
+        }
+        .jp-recommendations-summary {
+            background: $dark-grey;
+            box-shadow: none;
+            border: 0;
+            color: $light-grey;
+
+            .jp-recommendations-summary__content {
+                background: $dark-grey;
+                color: $light-grey;
+            }
+            .jp-recommendations-product-card-upsell__padding {
+                background: $ultra-grey;
+                color: $light-grey;
+            }
+        }
+        .jp-at-a-glance__stats-cta {
+            background-color: $dark-grey;
+            color: $light-grey;  
+        }
+        .jp-at-a-glance__stats-chart {
+            background-color: $dark-grey;
+        }
+
+        #jp-stats-wrap {
+            #statchart {                
+                #statchart-box {
+                    background-image: none;
+                    background-color: $ultra-grey;
+                    color: $light-grey;
+                    border: 0;
+
+                    ul#chartswitch {
+                        background-image: none;
+                        background-color: $dark-grey;
+                        color: $light-grey; 
+
+                        li {
+                            a {
+                                background-image: none;
+                                background-color: $dark-grey;
+                                color: $light-grey;
+                                border: 0;
+                                box-shadow: none;
+                            }
+                            a.active,
+                            a:hover {
+                                background-image: none!important;
+                                background-color: $ultra-grey;
+                                color: $light-grey;
+                            }
+                        }
+                    }
+                    #stat-chart-container {
+                        .tickLabels {
+                            .xAxis > div {
+                                color: $light-grey;
+                            }
+                            .yAxis > div {
+                                color: $light-grey;
+                            }
+                        }
+                    }
+                    #stats-nuggets {
+                        ul {
+                            li {
+                                h3 {
+                                    text-shadow: none;
+                                    color: $light-grey;
+                                }
+                                a {
+                                    text-shadow: none;
+                                    color: $light-grey;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #wpcom-stats-meta-box-container {
+                .postbox-container {
+                    .postbox {
+                        .inside {
+                            ul.metabox-tabs {
+                                background-image: none;
+                                background-color: $dark-grey;
+                                color: $light-grey; 
+
+                                li {
+                                    a {
+                                        background-image: none;
+                                        background-color: $dark-grey;
+                                        color: $light-grey;
+                                        border: 0;
+                                        box-shadow: none;
+                                    }
+                                    a.active,
+                                    a:hover {
+                                        background-image: none!important;
+                                        background-color: $ultra-grey;
+                                        color: $light-grey;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+   
+    }
+
+    .jp-connect-full__container {
+        background-color: $base-grey;
+        box-shadow: none;
+
+        .jp-connect-full__container-card {
+            background-color: $dark-grey;
+        }
+    }
+
+    .jp-wpcom-connect__content-container {
+        background-color: $dark-grey;
+
+        .jp-connect-illo .jetpack-logo {
+            fill: $light-grey;
+        }
+        .jp-banner__tos-blurb {
+            color: $light-grey;
+        }
+        .dops-button.is-primary {
+            color: $black;
+        }
+    }
+
+    .jitm-card {
+        background-color: $dark-grey;
+        color: $light-grey;
+        box-shadow: none;
+    }
+    .jitm-banner__info .jitm-banner__description, 
+    .jitm-banner__info .jitm-banner__title {
+        color: $light-grey;
+    }
+    .jitm-button,
+    .dops-button {
+        background-color: $dark-grey;
+        color: $light-grey;
+    }
+
+    #jetpack_summary_widget {
+        .inside #dashboard_stats {
+            #stats-info {
+                background-color: $ultra-grey;
+                color: $light-grey;
+            }
+        }
+        footer {
+            background-color: $ultra-grey;
+            color: $light-grey;
+        }
+    }
+
+    
+
+}

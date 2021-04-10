@@ -1,0 +1,21 @@
+/**
+ * Dark Mode for WP Dashboard CSS
+ */
+
+// Import Colors
+@import "colors";
+
+// Import Variables
+@import "variables";
+
+// Import Admin
+@import "admin";
+
+// Import Main
+@import "main";
+
+// Import Plugins
+@import "plugins/jetpack/jetpack";
+@import "plugins/wp-nested-pages/wp-nested-pages";
+@import "plugins/woocommerce/woocommerce";
+@import "plugins/yoast-seo/yoast-seo";
