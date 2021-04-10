@@ -9,7 +9,7 @@ Makes your WordPress admin dashboard in dark mode.
 
 == Description ==
 
-Adds a smooth dark mode to the default WordPress dashboard interface.
+Adds a smooth dark mode to the default WordPress dashboard interface. The dark mode can be disabled per user in the profile page.
 
 Plugins officially supported:
 * Jetpack
