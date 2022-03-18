@@ -1,0 +1,193 @@
+body.wp-admin {
+
+	.block-editor {
+        background-color: $base-grey;
+
+        .block-editor__container  {
+            background-color: $base-grey;
+
+            .interface-interface-skeleton__header {
+                color: $menu-text;
+                background: $menu-background;
+                border-color: $menu-background;
+
+                .edit-post-header {
+                    color: $menu-text;
+                    background: $menu-background;
+
+                    button {
+                        color: $white;
+                    }
+                }
+            }
+
+            .interface-interface-skeleton__body {
+                .interface-interface-skeleton__secondary-sidebar {
+                    background: $menu-background;
+                    color: $menu-text;
+
+                    button {
+                        color: $light-grey;
+                    }
+
+                    .block-editor-inserter__content {
+
+                        .block-editor-inserter__search {
+                            background: $menu-background;
+                            color: $menu-text;
+                        }
+
+                        .block-editor-inserter__tabs {
+                            .components-tab-panel__tabs {
+                                background: $menu-background;
+                                color: $menu-text;
+
+                                button {
+                                    color: $menu-text;
+                                }
+                            }
+                        }
+
+                        .block-editor-block-types-list__list-item {
+                            padding: 0.15rem;
+    
+                            button {
+                                background-color: $base-grey;
+                                color: $light-grey;
+                                height: 100%;
+    
+                                span,
+                                svg {
+                                    color: $light-grey;
+                                }
+                            }
+                        }
+                    }
+                }
+                .interface-interface-skeleton__sidebar {
+                    background: $menu-background;
+                    color: $menu-text;
+                    border-color: $menu-background;
+
+                    .edit-post-sidebar {
+                        background-color: $base-grey;
+                        color: $light-grey;
+
+                        .components-panel__header {
+                            background: $menu-background;
+                            color: $menu-text;
+                            border-color: $menu-background;
+
+                            button {
+                                color: $menu-text;
+                            }
+                        }
+
+                        .components-panel {
+                            background-color: $base-grey;
+                            color: $light-grey;
+
+                            .components-panel__body {
+                                button {
+                                    color: $light-grey;
+                                    background-color: $base-grey;
+                                }
+                                svg {
+                                    color: $light-grey;
+                                }
+                                select {
+                                    background-color: $dark-silver;
+                                    border-color: $ultra-grey;
+                                    color: $white;
+                                }
+                            }
+                            .block-editor-block-inspector__no-blocks {
+                                background-color: $base-grey;
+                                color: $light-grey;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .interface-interface-skeleton__footer {
+                background: $menu-background;
+                color: $menu-text;
+                border-color: $menu-background;
+
+                ul {
+                    background: $menu-background;
+                    color: $light-grey;
+                    border-color: $menu-background;
+                    li {
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+
+        .popover-slot {
+            .components-popover__content {
+                background-color: $dark-grey;
+			    border-color: $ultra-grey;
+                color: $light-grey;
+
+                div,
+                span,
+                svg {
+                    color: $light-grey;
+                }
+
+                .table-of-contents__counts {
+                    li {
+                        color: $light-grey;
+                    }
+                }
+            }
+            .block-editor-inserter__quick-inserter,
+            .block-editor-inserter__search {
+                color: $menu-text;
+                background: $menu-background;
+                border-color: $menu-background!important;
+
+                .block-editor-inserter__panel-content {
+                    background-color: $base-grey;
+                    border: 0;
+
+                    svg {
+                        color: $light-grey;
+                    }
+                }
+
+                .block-editor-inserter__quick-inserter-results {
+                    border-color: $base-grey;
+                }
+
+                input[type="search"].components-search-control__input:focus {
+                    background-color: $dark-silver;
+                    border-color: $ultra-grey;
+                    color: $white;
+                }
+            }
+        }
+
+        .edit-post-visual-editor {
+            background-color: $base-grey;
+
+            .edit-post-visual-editor__content-area {
+                background-color: $base-grey;
+
+                .is-desktop-preview {
+                    background-color: $base-grey;
+
+                    .block-editor-writing-flow {
+                        background-color: $base-grey;
+
+
+                    }
+                }
+            }
+        }
+	}
+	
+}

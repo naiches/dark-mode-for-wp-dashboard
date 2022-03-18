@@ -1,7 +1,7 @@
 ﻿=== Dark Mode for WP Dashboard ===
 Contributors: naiches
 Tags: dark mode, night mode, dark, dark ui, wordpress dark mode, wordpress dark theme, dark mode dashboard
-Tested up to: 5.6
+Tested up to: 5.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,7 @@ Makes your WordPress admin dashboard in dark mode.
 Adds a smooth dark mode to the default WordPress dashboard interface. The dark mode can be disabled per user in the profile page.
 
 Plugins officially supported:
+* Advanced Custom Fields
 * Jetpack
 * Nested Pages
 * Yoast SEO
@@ -29,6 +30,12 @@ Plugins officially supported:
 3. Themes
 
 == Changelog ==
+= 1.1.2 =
+- Update: Added Advanced Custom Fields support
+
+= 1.1.1 =
+- Update: Fixed Gutenberg editor.
+
 = 1.1.0 =
 - Update: Added the option to disable the dark mode in the user profile.
 

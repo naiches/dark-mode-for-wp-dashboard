@@ -1,0 +1,89 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+    .acf-admin-toolbar {
+        background-color: $dark-grey;
+        border-color: $ultra-grey;
+        color: $light-grey;
+    }
+
+    #acf-field-group-fields {
+        .acf-field-list-wrap {
+            background-color: $dark-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            ul {
+                li {
+                    color: $light-grey;
+                }
+            }
+
+            .acf-field-list {
+                background-color: $dark-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                .no-fields-message {
+                    background-color: $dark-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey;  
+                }
+
+                .acf-field-object {
+                    background-color: $dark-grey;
+                    border-color: $dark-grey;
+                }
+            }
+            .acf-tfoot {
+                background-color: $dark-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;  
+            }
+        }
+    }
+
+    #acf-field-group-locations {
+        .acf-fields {
+            .acf-field {
+                &:before {
+                    background-color: $dark-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey; 
+                }
+            }
+        }
+    }
+
+    #acf-field-group-options {
+        .acf-fields {
+            .acf-field {
+                &:before {
+                    background-color: $dark-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey; 
+                }
+            }
+        } 
+    }
+
+    .acf-switch,
+    .acf-input-prepend {
+        background-color: $dark-grey;
+        border-color: $ultra-grey;
+    }
+
+    #acf-admin-tool-export {
+        .acf-fields {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey; 
+        }
+    }
+
+    #acf-admin-tool-import {
+        .acf-fields {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey; 
+        }
+    }
+}

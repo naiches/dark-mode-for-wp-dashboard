@@ -34,6 +34,14 @@ body.wp-admin:not(.gutenberg-editor-page) {
         
         #wpbody-content {
             background-color: $base-grey;
+
+			#welcome-panel {
+				.welcome-panel-content {
+					.welcome-panel-column-container {
+						background-color: $dark-grey;
+					}
+				}
+			}
         }
 
 		#wpadminbar {
@@ -2500,4 +2508,3 @@ input.readonly, input[readonly], textarea.readonly, textarea[readonly] {
 	background-color: $dark-grey;
 
 }
-
