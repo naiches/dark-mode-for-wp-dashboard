@@ -1,5 +1,13 @@
 body.wp-admin:not(.gutenberg-editor-page) {
 
+  #wpseo_meta {
+    .postbox-header {
+      &:hover {
+        background-color: $ultra-grey;
+      }
+    }
+  }
+
   .wpseo-metabox-content {
 
     .wpseo-metabox-menu {
@@ -19,6 +27,28 @@ body.wp-admin:not(.gutenberg-editor-page) {
           background-color: $dark-grey;
           color: $light-grey;
 
+        }
+      }
+    }
+
+    .wpseo-meta-section {
+      button {
+        background-color: $ultra-grey;
+        color: $light-grey;
+      }
+      div {
+        background-color: $base-grey;
+        color: $light-grey;
+      }
+      input {
+        background-color: $dark-silver;
+      }
+      #yoast-snippet-preview-container {
+        background-color: $ultra-grey;
+        color: $light-grey;
+        div {
+          background-color: $ultra-grey;
+          color: $light-grey;
         }
       }
     }

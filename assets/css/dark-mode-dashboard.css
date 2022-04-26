@@ -3366,6 +3366,9 @@ body.wp-admin:not(.gutenberg-editor-page) .woocommerce-pagination .woocommerce-p
   color: #bbc8d4;
 }
 
+body.wp-admin:not(.gutenberg-editor-page) #wpseo_meta .postbox-header:hover {
+  background-color: #191f25;
+}
 body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-metabox-menu {
   background-color: #191f25;
 }
@@ -3374,6 +3377,25 @@ body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-metabox-
   color: #bbc8d4;
 }
 body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-metabox-menu ul li.active a, body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-metabox-menu ul li:hover a {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-meta-section button {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-meta-section div {
+  background-color: #23282d;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-meta-section input {
+  background-color: #50626f;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-meta-section #yoast-snippet-preview-container {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-metabox-content .wpseo-meta-section #yoast-snippet-preview-container div {
   background-color: #191f25;
   color: #bbc8d4;
 }
