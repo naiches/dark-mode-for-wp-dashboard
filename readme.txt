@@ -31,6 +31,9 @@ Plugins officially supported:
 
 == Changelog ==
 = 1.1.3 =
+- Update: Added Better Search Replace support
+
+= 1.1.2 =
 - Update: Added Advanced Custom Fields support
 
 = 1.1.1 =
