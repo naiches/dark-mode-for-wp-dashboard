@@ -1,0 +1,29 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+    .bsr-action-form {
+        background-color: $base-grey;
+        color: $light-grey;
+
+        #bsr-search-replace-wrap {
+            background-color: $base-grey;
+        }
+
+        .panel {
+            background-color: $ultra-grey;
+            box-shadow: none;
+
+            p,
+            label,
+            span {
+                color: $light-grey!important;
+            }
+
+            input {
+                background-color: $dark-silver!important;
+                box-shadow: none!important;
+            }
+        }
+
+    }
+
+}

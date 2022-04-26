@@ -30,7 +30,7 @@ Plugins officially supported:
 3. Themes
 
 == Changelog ==
-= 1.1.2 =
+= 1.1.3 =
 - Update: Added Advanced Custom Fields support
 
 = 1.1.1 =

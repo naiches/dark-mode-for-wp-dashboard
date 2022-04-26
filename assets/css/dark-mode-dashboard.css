@@ -3643,4 +3643,25 @@ body.wp-admin:not(.gutenberg-editor-page) #acf-admin-tool-import .acf-fields {
   color: #bbc8d4;
 }
 
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form {
+  background-color: #23282d;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form #bsr-search-replace-wrap {
+  background-color: #23282d;
+}
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel {
+  background-color: #191f25;
+  box-shadow: none;
+}
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel p,
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel label,
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel span {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel input {
+  background-color: #50626f !important;
+  box-shadow: none !important;
+}
+
 /*# sourceMappingURL=dark-mode-dashboard.css.map */
