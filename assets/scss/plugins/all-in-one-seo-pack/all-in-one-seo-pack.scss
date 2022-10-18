@@ -1,0 +1,336 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+    .aioseo-app,
+    #aioseo-settings {
+        .postbox-header {
+            &:hover {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+            }
+        }
+        .aioseo-post-settings {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            .aioseo-tabs {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+            }
+            .aioseo-tab-content {
+                background-color: $dark-grey;
+                border-color: $light-grey;
+                color: $light-grey;
+
+                * {
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-tabs {
+            background-color: $ultra-grey!important;
+            border-color: $ultra-grey!important;
+            color: $light-grey!important;
+        }
+        .aioseo-facebook-preview {
+            background-color: $ultra-grey!important;
+            border-color: $ultra-grey!important;
+            color: $light-grey!important;
+
+            .facebook-post {
+                background-color: $dark-grey!important;
+                border-color: $dark-grey!important;
+                color: $light-grey!important;
+
+                .facebook-site-description {
+                    background-color: $dark-grey!important;
+                    border-color: $dark-grey!important;
+                    color: $light-grey!important;
+                }
+            }
+        }
+
+
+
+        .aioseo-notifications {
+            .notification-menu {
+                background-color: $ultra-grey;
+                color: $light-grey;
+
+                .title {
+                    color: $light-grey;
+                }
+
+                .aioseo-button {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white!important;
+                }
+            }
+        }
+        .aioseo-header {
+            background-color: $ultra-grey;
+            color: $light-grey;
+
+            .header-actions {
+                .round {
+                    background-color: $dark-grey;
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-card {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            * {
+                color: $light-grey;
+            }
+
+            .title {
+                color: $light-grey;
+            }
+            .aioseo-button {
+                background-color: $primary;
+                border-color: $primary;
+                color: $white!important;
+            }
+            .license-cta-box {
+                background-color: $dark-grey;
+                border-color: $light-grey;
+                color: $light-grey;
+            }
+        }
+        .aioseo-seo-setup {
+            .progress {
+                background-color: $dark-grey;
+                border-color: $light-grey;
+                color: $light-grey;
+            }
+        }
+        .aioseo-seo-site-score {
+            .aioseo-seo-site-score-cta {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+            }
+        }
+        .aioseo-select {
+            .multiselect__tags,
+            .multiselect__input,
+            .multiselect__single {
+                background-color: $dark-silver!important;
+                border-color: $dark-silver!important;
+                color: $white!important;
+            }
+        }
+        .aioseo-donut-chart {
+            .total-amount-wrapper {
+                .total-amount {
+                    .total {
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+        .aioseo-donut-chart-with-legend {
+            .chart-right {
+                .legend {
+                    span {
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+        .aioseo-dashboard {
+            .dashboard-support {
+                .aioseo-settings-row {
+                    a {
+                        color: $light-grey;
+                    }
+                }
+            }
+            .aioseo-quicklinks-title {
+                color: $light-grey;
+            }
+        }
+        .aioseo-cta {
+            .aioseo-cta-background {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+                
+                * {
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-feature-card {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            .feature-card-body {
+                .feature-card-description {
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-box-toggle {
+            label {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+            }
+            input {
+                &:checked + label {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white!important;
+                }
+            }
+        }
+        .aioseo-display-info .copy-box, 
+        .aioseo-display-info .extra-box {
+            background-color: $dark-grey;
+            border-color: $dark-grey;
+            color: $light-grey;
+        }
+        .aioseo-separators {
+            .aioseo-col {
+                .separator {
+                    background-color: $dark-grey;
+                    border-color: $dark-grey;
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-radio-toggle {
+            label {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+
+                &.default {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white!important;
+                }
+            }
+        }
+        .aioseo-toggle {
+            .toggle-content {
+                .toggle-switch {
+                    background-color: $dark-grey;
+                    border-color: $dark-grey;
+                    color: $light-grey;
+                }
+
+                input:checked + .toggle-switch {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white!important;
+                }
+            }
+        }
+        .aioseo-pro-badge {
+            background-color: $dark-grey;
+            border-color: $dark-grey;
+            color: $light-grey;
+        }
+        .aioseo-alert.blue {
+            background-color: $dark-grey;
+            border-color: $dark-grey;
+            color: $light-grey;
+        }
+        .aioseo-editor {
+            .ql-editor {
+                .mention {
+                    .aioseo-tag {
+                        background-color: $dark-silver;
+                        border-color: $dark-silver;
+                        color: $white;
+                        font-weight: 300;
+
+                        .tag-toggle {
+                            background-color: $dark-silver;
+                            border-color: $dark-silver;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .ql-mention-list-container {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+
+                .ql-mention-list {
+                    li {
+                        &:hover,
+                        &.selected {
+                            background-color: $primary;
+                            border-color: $primary;
+                            color: $white!important;
+                        }
+                    }
+                }
+            }
+        }
+        .aioseo-search-appearance-global {
+            .aioseo-settings-row.local-seo {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+            }
+        }
+        .aioseo-social-profiles {
+            .same-username {
+                .use-same {
+                    background-color: $dark-grey;
+                    border-color: $dark-grey;
+                    color: $light-grey;
+                }
+            }
+        }
+        .aioseo-checkbox {
+            .form-checkbox {
+                span {
+                    background-color: $dark-silver;
+                    border-color: $dark-silver;
+                    color: $white;
+
+                    
+                    &:before {
+                        background-color: $dark-silver;
+                        border-color: $dark-silver;
+                        color: $white;
+                    }
+                }
+                input:checked + .fancy-checkbox::before {
+                    background-color: transparent;
+                    border-color: $dark-silver;
+                    color: $white;
+                }
+            }
+        }
+        .aioseo-alert {
+            background-color: $dark-grey;
+            border-color: $dark-grey;
+            color: $light-grey;
+        }
+        .label {
+            color: $light-grey!important;
+        }
+        .aioseo-button.green {
+            color: $black;
+        }
+        .aioseo-button.gray {
+            background-color: $primary;
+            border-color: $primary;
+            color: $white!important;
+        }
+    }
+}

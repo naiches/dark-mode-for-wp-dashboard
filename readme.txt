@@ -17,6 +17,7 @@ Plugins officially supported:
 * Nested Pages
 * Yoast SEO
 * WooCommerce
+* Better Search Replace
 
 == Installation ==
 
@@ -30,6 +31,9 @@ Plugins officially supported:
 3. Themes
 
 == Changelog ==
+= 1.2.0 =
+- Update: Added support for Yoast SEO Premium, Yoast SEO Local, Yoast SEO News, Yoast SEO Video, Yoast SEO WooCommerce & AIOSEO. Some minor fixes
+
 = 1.1.3 =
 - Update: Added Better Search Replace support
 
@@ -37,7 +41,7 @@ Plugins officially supported:
 - Update: Added Advanced Custom Fields support
 
 = 1.1.1 =
-- Update: Fixed Gutenberg editor.
+- Update: Fixed Gutenberg editor
 
 = 1.1.0 =
 - Update: Added the option to disable the dark mode in the user profile.

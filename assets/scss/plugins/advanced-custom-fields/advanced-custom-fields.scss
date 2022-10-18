@@ -83,7 +83,89 @@ body.wp-admin:not(.gutenberg-editor-page) {
         .acf-fields {
             background-color: $ultra-grey;
             border-color: $ultra-grey;
-            color: $light-grey; 
+            color: $light-grey;
+        }
+    }
+
+    .acf-headerbar {
+        background-color: $ultra-grey;
+        border-color: $ultra-grey;
+        color: $light-grey;
+    }
+    #poststuff {
+        .postbox {
+            .postbox-header {
+                color: $light-grey;
+    
+                h2 {
+                    color: $light-grey!important;
+                }
+            }
+            .acf-thead {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+            }
+            .acf-field-list {
+                .acf-field-object {
+                    .handle {
+                        background-color: $dark-grey;
+                        border-color: $dark-grey;
+                        color: $light-grey;
+                    }
+                    .settings {
+                        background-color: $dark-grey;
+                        border-color: $dark-grey;
+                        color: $light-grey;
+                    }
+                }
+            }
+            .acf-tab-wrap {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                ul {
+                    li {
+                        a {
+                            color: $light-grey;
+                        }
+                    }
+                }
+            }
+            .acf-switch {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+    
+                &.-on {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white!important;
+                }
+            }
+            .acf-button-group {
+                label {
+                    background-color: $ultra-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey;
+
+                    &.selected {
+                        background-color: $primary;
+                        border-color: $primary;
+                        color: $white!important;
+                    }
+                }
+            }
+        }
+    }
+    .acf-box {
+        background-color: $ultra-grey;
+        border-color: $ultra-grey;
+        color: $light-grey;
+
+        * {
+            color: $light-grey;
         }
     }
 }

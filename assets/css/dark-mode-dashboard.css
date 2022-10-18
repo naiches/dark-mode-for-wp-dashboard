@@ -194,7 +194,7 @@ textarea:focus {
   color: #d54e21;
 }
 .wp-core-ui .wp-ui-text-icon {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 /* List tables */
@@ -235,7 +235,7 @@ textarea:focus {
 }
 
 #adminmenu div.wp-menu-image:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 #adminmenu a:hover,
@@ -349,7 +349,7 @@ ul#adminmenu > li.current > a.current:after {
 
 /* Admin Menu: collapse button */
 #collapse-button {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 #collapse-button:hover,
@@ -374,7 +374,7 @@ ul#adminmenu > li.current > a.current:after {
 #wpadminbar .ab-icon:before,
 #wpadminbar .ab-item:before,
 #wpadminbar .ab-item:after {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
@@ -418,7 +418,7 @@ ul#adminmenu > li.current > a.current:after {
 
 #wpadminbar .quicklinks li .blavatar,
 #wpadminbar .menupop .menupop > .ab-item:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 #wpadminbar .quicklinks .menupop ul li a:hover,
@@ -453,12 +453,12 @@ ul#adminmenu > li.current > a.current:after {
 
 #wpadminbar.mobile .quicklinks .hover .ab-icon:before,
 #wpadminbar.mobile .quicklinks .hover .ab-item:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 /* Admin Bar: search */
 #wpadminbar #adminbarsearch:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 #wpadminbar > #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
@@ -589,7 +589,7 @@ body.more-filters-opened .more-filters:focus:before {
 
 /* Responsive Component */
 div#wp-responsive-toggle a:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 .wp-responsive-open div#wp-responsive-toggle a {
@@ -602,7 +602,7 @@ div#wp-responsive-toggle a:before {
 }
 
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
-  color: #f1f2f3;
+  color: hsl(210deg, 7%, 95%);
 }
 
 /* TinyMCE */
@@ -1067,8 +1067,8 @@ body.wp-admin:not(.gutenberg-editor-page) #wpbody #activity-widget #the-comment-
 body.wp-admin:not(.gutenberg-editor-page) #wpbody #activity-widget #the-comment-list .pingback,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter #activity-widget #the-comment-list .comment,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter #activity-widget #the-comment-list .pingback {
-  -webkit-box-shadow: inset 0 1px 0 #23292f;
-  box-shadow: inset 0 1px 0 #23282e;
+  -webkit-box-shadow: inset 0 1px 0 rgb(35, 41, 47);
+  box-shadow: inset 0 1px 0 rgb(35, 40, 46);
 }
 body.wp-admin:not(.gutenberg-editor-page) #wpbody #templateside > ul,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter #templateside > ul {
@@ -2768,7 +2768,7 @@ body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container {
   background-color: #23282d;
 }
 body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container .jp-form-block-fade {
-  background: repeating-linear-gradient(45deg, #191f2544, #191f2544 10px, #32373c4f 10px, #32373c4f 20px);
+  background: repeating-linear-gradient(45deg, rgba(25, 31, 37, 0.2666666667), rgba(25, 31, 37, 0.2666666667) 10px, rgba(50, 55, 60, 0.3098039216) 10px, rgba(50, 55, 60, 0.3098039216) 20px);
 }
 body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container .dops-search .dops-search__icon-navigation {
   background-color: #191f25;
@@ -2827,7 +2827,7 @@ body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container .dops-chart .dops
   color: #bbc8d4;
 }
 body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container .dops-chart .dops-chart__bar-section.is-ghost:after {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #95d02d);
+  background-image: linear-gradient(180deg, hsla(0deg, 0%, 100%, 0), hsl(81.7deg, 64.4%, 49.6%));
 }
 body.wp-admin:not(.gutenberg-editor-page) #jp-plugin-container .jp-apps-card__top {
   background-color: #32373c;
@@ -3506,6 +3506,11 @@ body.wp-admin:not(.gutenberg-editor-page) .yoast-notifications .yoast-container 
   border-left: 4px solid #32373c;
   background: #32373c;
 }
+body.wp-admin:not(.gutenberg-editor-page) .yoast-notifications .yoast-container .button {
+  background-color: var(--yoast-color-primary) !important;
+  border-color: var(--yoast-color-primary) !important;
+  color: #ffffff !important;
+}
 body.wp-admin:not(.gutenberg-editor-page) .yoast_premium_upsell {
   border-color: #191f25;
   background-color: #191f25;
@@ -3584,6 +3589,99 @@ body.wp-admin:not(.gutenberg-editor-page) .wpseo_content_wrapper .yoast-field-gr
 body.wp-admin:not(.gutenberg-editor-page) .wpseo_content_wrapper .wpseo-admin-submit.wpseo-admin-submit-fixed {
   background-color: #32373c;
 }
+body.wp-admin:not(.gutenberg-editor-page) .notice-yoast {
+  background-color: #191f25;
+  border-color: #191f25;
+  border-left: 4px solid var(--yoast-color-primary);
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yst-bg-white {
+  background-color: #191f25 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yst-text-gray-900,
+body.wp-admin:not(.gutenberg-editor-page) .yst-text-gray-800,
+body.wp-admin:not(.gutenberg-editor-page) .yst-text-gray-700,
+body.wp-admin:not(.gutenberg-editor-page) .yst-text-gray-600,
+body.wp-admin:not(.gutenberg-editor-page) .yst-text-gray-500 {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yst-root .yst-input {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yst-root .yst-button {
+  background-color: var(--yoast-color-primary) !important;
+  border-color: var(--yoast-color-primary) !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yst-root .yst-card {
+  background-color: #191f25 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .yoast-grid .yoast-button {
+  background-color: var(--yoast-color-primary) !important;
+  border-color: var(--yoast-color-primary) !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpseo-integrations .yst-grid .yst-flex-col {
+  background-color: #32373c !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpseo-integrations .yst-grid .yst-flex-col span {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpseo-workouts-container-free .card {
+  background-color: #191f25 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpseo-workouts-container-free .card .workflow .css-yk16xz-control {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpseo-workouts-container-free .card .workflow button {
+  background-color: var(--yoast-color-primary) !important;
+  border-color: var(--yoast-color-primary) !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #yoast-workouts-back-to-workouts-button {
+  background-color: var(--yoast-color-primary) !important;
+  border-color: var(--yoast-color-primary) !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block * {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block button.yst-replacevar__button-insert,
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yoast-button {
+  background-color: #3858e9 !important;
+  border-color: #3858e9 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yst-replacevar__editor {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yoast-image-select__preview--no-preview {
+  background-color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block #knowledge-graph-company-warning * {
+  background-color: #32373c !important;
+  border-color: #32373c !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yoast-button-upsell {
+  color: #000000 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .bFMayg:before {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
 
 body.wp-admin:not(.gutenberg-editor-page) .acf-admin-toolbar {
   background-color: #32373c;
@@ -3642,6 +3740,68 @@ body.wp-admin:not(.gutenberg-editor-page) #acf-admin-tool-import .acf-fields {
   border-color: #191f25;
   color: #bbc8d4;
 }
+body.wp-admin:not(.gutenberg-editor-page) .acf-headerbar {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .postbox-header {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .postbox-header h2 {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-thead {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-field-list .acf-field-object .handle {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-field-list .acf-field-object .settings {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-tab-wrap {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-tab-wrap ul li a {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-switch {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-switch.-on {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-button-group label {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-button-group label.selected {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .acf-box {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .acf-box * {
+  color: #bbc8d4;
+}
 
 body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form {
   background-color: #23282d;
@@ -3662,6 +3822,306 @@ body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel span {
 body.wp-admin:not(.gutenberg-editor-page) .bsr-action-form .panel input {
   background-color: #50626f !important;
   box-shadow: none !important;
+}
+
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .postbox-header:hover,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .postbox-header:hover {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-post-settings,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-post-settings {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-post-settings .aioseo-tabs,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-post-settings .aioseo-tabs {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-post-settings .aioseo-tab-content,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-post-settings .aioseo-tab-content {
+  background-color: #32373c;
+  border-color: #bbc8d4;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-post-settings .aioseo-tab-content *,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-post-settings .aioseo-tab-content * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-tabs,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-tabs {
+  background-color: #191f25 !important;
+  border-color: #191f25 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-facebook-preview,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-facebook-preview {
+  background-color: #191f25 !important;
+  border-color: #191f25 !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-facebook-preview .facebook-post,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-facebook-preview .facebook-post {
+  background-color: #32373c !important;
+  border-color: #32373c !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-facebook-preview .facebook-post .facebook-site-description,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-facebook-preview .facebook-post .facebook-site-description {
+  background-color: #32373c !important;
+  border-color: #32373c !important;
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-notifications .notification-menu,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-notifications .notification-menu {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-notifications .notification-menu .title,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-notifications .notification-menu .title {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-notifications .notification-menu .aioseo-button,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-notifications .notification-menu .aioseo-button {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-header,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-header {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-header .header-actions .round,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-header .header-actions .round {
+  background-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-card,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-card {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-card *,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-card * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-card .title,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-card .title {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-card .aioseo-button,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-card .aioseo-button {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-card .license-cta-box,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-card .license-cta-box {
+  background-color: #32373c;
+  border-color: #bbc8d4;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-seo-setup .progress,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-seo-setup .progress {
+  background-color: #32373c;
+  border-color: #bbc8d4;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-seo-site-score .aioseo-seo-site-score-cta,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-seo-site-score .aioseo-seo-site-score-cta {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-select .multiselect__tags,
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-select .multiselect__input,
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-select .multiselect__single,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-select .multiselect__tags,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-select .multiselect__input,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-select .multiselect__single {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-donut-chart .total-amount-wrapper .total-amount .total,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-donut-chart .total-amount-wrapper .total-amount .total {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-donut-chart-with-legend .chart-right .legend span,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-donut-chart-with-legend .chart-right .legend span {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-dashboard .dashboard-support .aioseo-settings-row a,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-dashboard .dashboard-support .aioseo-settings-row a {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-dashboard .aioseo-quicklinks-title,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-dashboard .aioseo-quicklinks-title {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-cta .aioseo-cta-background,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-cta .aioseo-cta-background {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-cta .aioseo-cta-background *,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-cta .aioseo-cta-background * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-feature-card,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-feature-card {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-feature-card .feature-card-body .feature-card-description,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-feature-card .feature-card-body .feature-card-description {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-box-toggle label,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-box-toggle label {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-box-toggle input:checked + label,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-box-toggle input:checked + label {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-display-info .copy-box,
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-display-info .extra-box,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-display-info .copy-box,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-display-info .extra-box {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-separators .aioseo-col .separator,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-separators .aioseo-col .separator {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-radio-toggle label,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-radio-toggle label {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-radio-toggle label.default,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-radio-toggle label.default {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-toggle .toggle-content .toggle-switch,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-toggle .toggle-content .toggle-switch {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-toggle .toggle-content input:checked + .toggle-switch,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-toggle .toggle-content input:checked + .toggle-switch {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-pro-badge,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-pro-badge {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-alert.blue,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-alert.blue {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-editor .ql-editor .mention .aioseo-tag,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-editor .ql-editor .mention .aioseo-tag {
+  background-color: #50626f;
+  border-color: #50626f;
+  color: #ffffff;
+  font-weight: 300;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-editor .ql-editor .mention .aioseo-tag .tag-toggle,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-editor .ql-editor .mention .aioseo-tag .tag-toggle {
+  background-color: #50626f;
+  border-color: #50626f;
+  color: #ffffff;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-editor .ql-mention-list-container,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-editor .ql-mention-list-container {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-editor .ql-mention-list-container .ql-mention-list li:hover, body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-editor .ql-mention-list-container .ql-mention-list li.selected,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-editor .ql-mention-list-container .ql-mention-list li:hover,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-editor .ql-mention-list-container .ql-mention-list li.selected {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-search-appearance-global .aioseo-settings-row.local-seo,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-search-appearance-global .aioseo-settings-row.local-seo {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-social-profiles .same-username .use-same,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-social-profiles .same-username .use-same {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-checkbox .form-checkbox span,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-checkbox .form-checkbox span {
+  background-color: #50626f;
+  border-color: #50626f;
+  color: #ffffff;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-checkbox .form-checkbox span:before,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-checkbox .form-checkbox span:before {
+  background-color: #50626f;
+  border-color: #50626f;
+  color: #ffffff;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-checkbox .form-checkbox input:checked + .fancy-checkbox::before,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-checkbox .form-checkbox input:checked + .fancy-checkbox::before {
+  background-color: transparent;
+  border-color: #50626f;
+  color: #ffffff;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-alert,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-alert {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .label,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .label {
+  color: #bbc8d4 !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-button.green,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-button.green {
+  color: #000000;
+}
+body.wp-admin:not(.gutenberg-editor-page) .aioseo-app .aioseo-button.gray,
+body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-button.gray {
+  background-color: #3858e9;
+  border-color: #3858e9;
+  color: #ffffff !important;
 }
 
 /*# sourceMappingURL=dark-mode-dashboard.css.map */

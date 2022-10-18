@@ -183,7 +183,6 @@ body.wp-admin:not(.gutenberg-editor-page) {
   .yoast-notifications {
 
     .yoast-container {
-
       background-color: $ultra-grey;
       border-color: $ultra-grey;
 
@@ -195,6 +194,12 @@ body.wp-admin:not(.gutenberg-editor-page) {
       .yoast-notification {
         border-left: 4px solid $dark-grey;
         background: $dark-grey;
+      }
+
+      .button {
+        background-color: var(--yoast-color-primary)!important;
+        border-color: var(--yoast-color-primary)!important;
+        color: $white!important;
       }
 
     }
@@ -299,6 +304,135 @@ body.wp-admin:not(.gutenberg-editor-page) {
       background-color: $dark-grey;
     }
 
+  }
+
+  .notice-yoast {
+    background-color: $ultra-grey;
+    border-color: $ultra-grey;
+    border-left: 4px solid var(--yoast-color-primary);
+    color: $light-grey;
+  }
+
+  .yst-bg-white {
+    background-color: $ultra-grey!important;
+    color: $light-grey!important;
+  }
+
+  .yst-text-gray-900,
+  .yst-text-gray-800,
+  .yst-text-gray-700,
+  .yst-text-gray-600,
+  .yst-text-gray-500 {
+    color: $light-grey!important;
+  }
+
+  .yst-root {
+    .yst-input {
+      background-color: $dark-silver!important;
+      border-color: $dark-silver!important;
+      color: $white!important;
+    }
+    .yst-button {
+      background-color: var(--yoast-color-primary)!important;
+      border-color: var(--yoast-color-primary)!important;
+      color: $white!important;
+    }
+    .yst-card {
+      background-color: $ultra-grey!important;
+      color: $light-grey!important;
+    }
+  }
+
+  .yoast-grid {
+    .yoast-button {
+      background-color: var(--yoast-color-primary)!important;
+      border-color: var(--yoast-color-primary)!important;
+      color: $white!important;
+    }
+  }
+
+  #wpseo-integrations {
+    .yst-grid {
+      .yst-flex-col {
+        background-color: $dark-grey!important;
+        color: $light-grey!important;
+
+        span {
+          color: $light-grey!important;
+        }
+      }
+    }
+  }
+
+  #wpseo-workouts-container-free {
+    .card {
+      background-color: $ultra-grey!important;
+      color: $light-grey!important;
+
+      .workflow {
+        .css-yk16xz-control {
+          background-color: $dark-silver!important;
+          border-color: $dark-silver!important;
+          color: $white!important;
+        }
+
+        button {
+          background-color: var(--yoast-color-primary)!important;
+          border-color: var(--yoast-color-primary)!important;
+          color: $white!important;
+        }
+      }
+    }
+  }
+
+
+  #yoast-workouts-back-to-workouts-button {
+    background-color: var(--yoast-color-primary)!important;
+    border-color: var(--yoast-color-primary)!important;
+    color: $white!important;
+  }
+
+  .wpseo-admin-page {
+    .tab-block {
+      color: $light-grey!important;
+
+      * {
+        color: $light-grey!important;
+      }
+
+      button.yst-replacevar__button-insert,
+      .yoast-button {
+        background-color: $primary!important;
+        border-color: $primary!important;
+        color: $light-grey!important;
+      }
+
+      .yst-replacevar__editor {
+        background-color: $dark-silver!important;
+        border-color: $dark-silver!important;
+        color: $white!important;
+      }
+
+      .yoast-image-select__preview--no-preview {
+        background-color: $light-grey!important;
+      }
+
+      #knowledge-graph-company-warning {
+        * {
+          background-color: $dark-grey!important;
+          border-color: $dark-grey!important;
+          color: $light-grey!important;
+        }
+      }
+
+      .yoast-button-upsell {
+        color: $black!important;
+      }
+    }
+  }
+
+  .bFMayg:before {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
   }
 
 }
