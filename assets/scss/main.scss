@@ -20,6 +20,7 @@ body.wp-admin:not(.gutenberg-editor-page) {
 		code,
 		kbd,
 		label,
+		li,
 		.form-table th,
 		.form-wrap label,
 		.form-wrap p,
@@ -27,7 +28,6 @@ body.wp-admin:not(.gutenberg-editor-page) {
 		.importer-title,
 		.menu-in-location,
 		.theme-location-set {
-
 			color: $light-grey;
 
         }
