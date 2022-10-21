@@ -9,7 +9,7 @@
  * Button mixin- creates a button effect with correct
  * highlights/shadows, based on a base color.
  */
-body {
+ body {
   background: #23282d;
 }
 
@@ -736,6 +736,7 @@ body.wp-admin:not(.gutenberg-editor-page) #wpbody p,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody code,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody kbd,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody label,
+body.wp-admin:not(.gutenberg-editor-page) #wpbody li,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody .form-table th,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody .form-wrap label,
 body.wp-admin:not(.gutenberg-editor-page) #wpbody .form-wrap p,
@@ -747,6 +748,7 @@ body.wp-admin:not(.gutenberg-editor-page) #wpfooter p,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter code,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter kbd,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter label,
+body.wp-admin:not(.gutenberg-editor-page) #wpfooter li,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter .form-table th,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter .form-wrap label,
 body.wp-admin:not(.gutenberg-editor-page) #wpfooter .form-wrap p,

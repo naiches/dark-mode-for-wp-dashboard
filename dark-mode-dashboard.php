@@ -30,7 +30,6 @@ function dark_mode_dashboard_add_styles() {
         wp_enqueue_style( 'dark-mode-dashboard');
     }
 }
-
 add_action( 'admin_enqueue_scripts', 'dark_mode_dashboard_add_styles' );
 
 
