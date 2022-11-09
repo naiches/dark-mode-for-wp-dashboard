@@ -6,13 +6,13 @@
  * Author: Naiche
  * Author URI: https://profiles.wordpress.org/naiches/
  * Text Domain: dark-mode-dashboard
- * Version: 1.2.0
+ * Version: 1.2.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
     die();
 }
-define('DARK_MODE_DASHBOARD_VERSION', '1.2.0');
+define('DARK_MODE_DASHBOARD_VERSION', '1.2.1');
 define('DARK_MODE_DASHBOARD_PLUGIN_PATH', plugin_dir_url(__FILE__));
 
 

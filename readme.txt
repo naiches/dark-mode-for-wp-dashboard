@@ -31,6 +31,9 @@ Plugins officially supported:
 3. Themes
 
 == Changelog ==
+= 1.2.1 =
+- Update: Added support for Google Analytics for WordPress by MonsterInsights
+
 = 1.2.0 =
 - Update: Added support for Yoast SEO Premium, Yoast SEO Local, Yoast SEO News, Yoast SEO Video, Yoast SEO WooCommerce & AIOSEO. Some minor fixes
 

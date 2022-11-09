@@ -3663,6 +3663,11 @@ body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yoast-bu
   border-color: #3858e9 !important;
   color: #bbc8d4 !important;
 }
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block button.yst-replacevar__button-insert:hover,
+body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yoast-button:hover {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+}
 body.wp-admin:not(.gutenberg-editor-page) .wpseo-admin-page .tab-block .yst-replacevar__editor {
   background-color: #50626f !important;
   border-color: #50626f !important;
@@ -4122,6 +4127,195 @@ body.wp-admin:not(.gutenberg-editor-page) #aioseo-settings .aioseo-button.gray {
   background-color: #3858e9;
   border-color: #3858e9;
   color: #ffffff !important;
+}
+
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-welcome-block {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-welcome-block .monsterinsights-upgrade-cta,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-welcome-block .monsterinsights-welcome-footer-upsell {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button-large,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button {
+  background-color: #3858e9 !important;
+  border-color: #3858e9 !important;
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button-large:hover,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button:hover {
+  background-color: #50626f !important;
+  border-color: #50626f !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button-large i,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button i {
+  color: #ffffff !important;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button-large svg,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-button svg {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-header {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-navigation-bar {
+  background-color: #191f25;
+  color: #bbc8d4;
+  border-color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-notice .monsterinsights-notice-inner {
+  background-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-notice .monsterinsights-notice-inner * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-block {
+  background-color: #191f25;
+  color: #bbc8d4;
+  border-color: #191f25;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-block * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-input-checkbox .monsterinsights-styled-checkbox-faux .monsterinsights-styled-checkbox {
+  background-color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-input-checkbox .monsterinsights-styled-checkbox-faux .monsterinsights-styled-checkbox:after {
+  background-color: #191f25;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-upsell,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-upsell-bottom,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-affiliate-tracking-upsell {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-upsell *,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-upsell-bottom *,
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-affiliate-tracking-upsell * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-input-select-input .multiselect .multiselect__tags {
+  background-color: #32373c;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-settings-input-select-input .multiselect .multiselect__tags .multiselect__tag {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-seo {
+  background-color: #23282d;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-seo * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-about .monsterinsights-about-block {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-about .monsterinsights-about-block * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-about .monsterinsights-addons-list .monsterinsights-addon {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-about .monsterinsights-addons-list .monsterinsights-addon * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-about .monsterinsights-addons-list .monsterinsights-addon .monsterinsights-addon-message {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-growth-tools {
+  background-color: #23282d;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-growth-tools * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-growth-tools .mi-growth__item {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-growth-tools .mi-growth__item .mi-growth__content {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-growth-tools .mi-growth__item .mi-growth__content * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-not-authenticated-notice {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-not-authenticated-notice * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-overview {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-overview * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-overview .monsterinsights-active-tab-button {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-overview .monsterinsights-deactive-tab-button {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-top h2 {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-infobox .monsterinsights-reports-infobox {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page #monsterinsights-report-infobox .monsterinsights-reports-infobox * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-box {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-box * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-row .monsterinsights-table-box {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-row .monsterinsights-table-box * {
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterinsights-report-row .monsterinsights-table-box .monsterinsights-table-box-list .monsterinsights-table-list-item:nth-child(2n+1) {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+}
+body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-not-authenticated-notice {
+  display: none;
 }
 
 /*# sourceMappingURL=dark-mode-dashboard.css.map */

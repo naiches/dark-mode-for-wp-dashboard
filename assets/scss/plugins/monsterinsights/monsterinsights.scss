@@ -1,0 +1,259 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+    .monsterinsights-admin-page {
+        .monsterinsights-welcome-block {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            .monsterinsights-upgrade-cta,
+            .monsterinsights-welcome-footer-upsell {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+            }
+        }
+
+        .monsterinsights-button-large,
+        .monsterinsights-button {
+            background-color: $primary!important;
+            border-color: $primary!important;
+            color: $white!important;
+
+            &:hover {
+                background-color: $dark-silver!important;
+                border-color: $dark-silver!important;
+            }
+
+            i {
+                color: $white!important;
+            }
+
+            svg {
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+            }
+        }
+
+        .monsterinsights-header {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+        }
+
+        .monsterinsights-navigation-bar {
+            background-color: $ultra-grey;
+            color: $light-grey;
+            border-color: $light-grey;
+        }
+
+        .monsterinsights-notice {
+            .monsterinsights-notice-inner {
+                background-color: $ultra-grey;
+                color: $light-grey;
+
+                * {
+                    color: $light-grey;
+                }
+            }
+        }
+
+        .monsterinsights-settings-block {
+            background-color: $ultra-grey;
+            color: $light-grey;
+            border-color: $ultra-grey;
+
+            * {
+                color: $light-grey;
+            }
+        }
+
+        .monsterinsights-settings-input-checkbox {
+            .monsterinsights-styled-checkbox-faux {
+                .monsterinsights-styled-checkbox {
+                    background-color: $light-grey;
+
+                    &:after {
+                        background-color: $ultra-grey;
+                    }
+                }
+            }
+        }
+
+        .monsterinsights-upsell,
+        .monsterinsights-upsell-bottom,
+        .monsterinsights-affiliate-tracking-upsell {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            * {
+                color: $light-grey;
+            }
+        }
+
+        .monsterinsights-settings-input-select-input {
+            .multiselect {
+                .multiselect__tags {
+                    background-color: $dark-grey;
+
+                    .multiselect__tag {
+                        background-color: $ultra-grey;
+                        border-color: $ultra-grey;
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+
+        #monsterinsights-seo {
+            background-color: $base-grey;
+
+            * {
+                color: $light-grey;
+            }
+        }
+
+        #monsterinsights-about {
+            .monsterinsights-about-block {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                * {
+                    color: $light-grey;
+                }
+            }
+
+            .monsterinsights-addons-list {
+                .monsterinsights-addon {
+                    background-color: $ultra-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey;
+
+                    * {
+                        color: $light-grey;
+                    }
+
+                    .monsterinsights-addon-message {
+                        background-color: $dark-grey;
+                        border-color: $dark-grey;
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+
+        #monsterinsights-growth-tools {
+            background-color: $base-grey;
+
+            * {
+                color: $light-grey;
+            }
+
+            .mi-growth__item {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                .mi-growth__content {
+                    background-color: $ultra-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey;
+
+                    * {
+                        color: $light-grey;
+                    }
+                }
+            }
+        }
+
+        .monsterinsights-not-authenticated-notice {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            * {
+                color: $light-grey;
+            }
+        }
+
+        #monsterinsights-report-overview {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            * {
+                color: $light-grey;
+            }
+
+            .monsterinsights-active-tab-button {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+            }
+
+            .monsterinsights-deactive-tab-button {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+            }
+        }
+
+        .monsterinsights-report-top {
+            h2 {
+                color: $light-grey;
+            }
+        }
+        
+        #monsterinsights-report-infobox {
+            .monsterinsights-reports-infobox {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                * {
+                    color: $light-grey;
+                }
+            }
+        }
+
+        .monsterinsights-report-box {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+
+            * {
+                color: $light-grey;
+            }
+        }
+
+        .monsterinsights-report-row {
+            .monsterinsights-table-box {
+                background-color: $ultra-grey;
+                border-color: $ultra-grey;
+                color: $light-grey;
+
+                * {
+                    color: $light-grey;
+                }
+
+                .monsterinsights-table-box-list {
+                    .monsterinsights-table-list-item {
+                        &:nth-child(2n+1) {
+                            background-color: $dark-grey;
+                            border-color: $dark-grey;
+                            color: $light-grey;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+    .monsterinsights-not-authenticated-notice {
+        display: none;
+    }
+}
