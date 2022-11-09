@@ -4314,8 +4314,23 @@ body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-admin-page .monsterin
   border-color: #32373c;
   color: #bbc8d4;
 }
-body.wp-admin:not(.gutenberg-editor-page) .monsterinsights-not-authenticated-notice {
-  display: none;
+
+body.wp-admin:not(.gutenberg-editor-page) #wpt_settings_page .tabs a {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+  border-radius: 0;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpt_settings_page .wptab {
+  background-color: #32373c;
+  border-color: #32373c;
+  color: #bbc8d4;
+  padding: 10px 15px;
+}
+body.wp-admin:not(.gutenberg-editor-page) #wpt_settings_page legend {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
 }
 
 /*# sourceMappingURL=dark-mode-dashboard.css.map */

@@ -1,0 +1,27 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+    #wpt_settings_page {
+        .tabs {
+            a {
+                background-color: $dark-grey;
+                border-color: $dark-grey;
+                color: $light-grey;
+                border-radius: 0;
+            }
+        }
+
+        .wptab {
+            background-color: $dark-grey;
+            border-color: $dark-grey;
+            color: $light-grey;
+            padding: 10px 15px;
+        }
+
+        legend {
+            background-color: $ultra-grey;
+            border-color: $ultra-grey;
+            color: $light-grey;
+        }
+    }
+
+}
