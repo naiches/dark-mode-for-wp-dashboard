@@ -1,0 +1,15 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+    .kadence_blocks_dash_head {
+        background-color: $ultra-grey;
+    }
+    .kadence_blocks_dash {
+        .kadence_blocks_dashboard_main {
+            background-color: $dark-grey;
+        }
+        .side-panel {
+            .sidebar-section {
+                background-color: $dark-grey;
+            }
+        }
+    }
+}

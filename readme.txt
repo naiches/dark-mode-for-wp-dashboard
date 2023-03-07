@@ -24,6 +24,11 @@ Plugins officially supported:
 * Better Search Replace
 * AIOSEO
 * Google Analytics for WordPress by MonsterInsights
+* Gutenberg Blocks by Kadence Blocks
+
+Contribution:
+Submit custom added style via the wordpress.org forums or via the offical Github repository.
+How to compile: `sass --watch assets/scss/app.scss assets/css/dark-mode-dashboard.css`
 
 == Installation ==
 
@@ -37,6 +42,12 @@ Plugins officially supported:
 3. Themes
 
 == Changelog ==
+= 1.2.3 =
+- Update: Added a toggle in the WP Admin toolbar. Also added support for Gutenberg Blocks by Kadence Blocks and fixed minor Gutenberg issues
+
+= 1.2.2 =
+- Fixed: Minor issue with ACF Group field
+
 = 1.2.1 =
 - Update: Added support for Google Analytics for WordPress by MonsterInsights & WP to Twitter
 

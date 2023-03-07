@@ -157,6 +157,13 @@ body.wp-admin:not(.gutenberg-editor-page) {
                     }
                 }
             }
+            .acf-field-group {
+                .acf-fields {
+                    background-color: $ultra-grey;
+                    border-color: $ultra-grey;
+                    color: $light-grey;
+                }
+            }
         }
     }
     .acf-box {

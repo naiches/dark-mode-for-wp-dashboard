@@ -3,6 +3,12 @@ body.wp-admin {
 	.block-editor {
         background-color: $base-grey;
 
+        .wp-block-quote {
+            cite {
+                color: $light-grey;
+            }
+        }
+
         .block-editor__container  {
             background-color: $base-grey;
 
@@ -22,16 +28,37 @@ body.wp-admin {
             }
 
             .interface-interface-skeleton__body {
+
+                .interface-interface-skeleton__sidebar {
+                    button {
+                        color: $white;
+                    }
+    
+                    .components-input-control__container {
+                        background-color: $base-grey;
+                        color: $white;
+                        * {
+                            color: $white;
+                        }
+                    }
+                }
+
                 .interface-interface-skeleton__secondary-sidebar {
                     background: $menu-background;
                     color: $menu-text;
 
-                    button {
-                        color: $light-grey;
+                    .block-editor-inserter__panel-content {
+                        .block-editor-block-types-list__list-item {
+                            button {
+                                color: $white;
+                                * {
+                                    color: $white;
+                                }
+                            }
+                        }
                     }
 
                     .block-editor-inserter__content {
-
                         .block-editor-inserter__search {
                             background: $menu-background;
                             color: $menu-text;
@@ -86,6 +113,16 @@ body.wp-admin {
                         .components-panel {
                             background-color: $base-grey;
                             color: $light-grey;
+
+                            button {
+                                color: $light-grey;
+                                background-color: $dark-grey;
+                                padding: 10px;
+
+                                * {
+                                    color: $light-grey;
+                                }
+                            }
 
                             .components-panel__body {
                                 button {

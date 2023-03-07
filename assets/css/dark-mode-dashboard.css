@@ -2618,6 +2618,9 @@ input.readonly, input[readonly], textarea.readonly, textarea[readonly] {
 body.wp-admin .block-editor {
   background-color: #23282d;
 }
+body.wp-admin .block-editor .wp-block-quote cite {
+  color: #bbc8d4;
+}
 body.wp-admin .block-editor .block-editor__container {
   background-color: #23282d;
 }
@@ -2633,12 +2636,25 @@ body.wp-admin .block-editor .block-editor__container .interface-interface-skelet
 body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__header .edit-post-header button {
   color: #ffffff;
 }
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar button {
+  color: #ffffff;
+}
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .components-input-control__container {
+  background-color: #23282d;
+  color: #ffffff;
+}
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .components-input-control__container * {
+  color: #ffffff;
+}
 body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__secondary-sidebar {
   background: #191f25;
   color: #bbc8d4;
 }
-body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__secondary-sidebar button {
-  color: #bbc8d4;
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__secondary-sidebar .block-editor-inserter__panel-content .block-editor-block-types-list__list-item button {
+  color: #ffffff;
+}
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__secondary-sidebar .block-editor-inserter__panel-content .block-editor-block-types-list__list-item button * {
+  color: #ffffff;
 }
 body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__secondary-sidebar .block-editor-inserter__content .block-editor-inserter__search {
   background: #191f25;
@@ -2682,6 +2698,14 @@ body.wp-admin .block-editor .block-editor__container .interface-interface-skelet
 }
 body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .edit-post-sidebar .components-panel {
   background-color: #23282d;
+  color: #bbc8d4;
+}
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .edit-post-sidebar .components-panel button {
+  color: #bbc8d4;
+  background-color: #32373c;
+  padding: 10px;
+}
+body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .edit-post-sidebar .components-panel button * {
   color: #bbc8d4;
 }
 body.wp-admin .block-editor .block-editor__container .interface-interface-skeleton__body .interface-interface-skeleton__sidebar .edit-post-sidebar .components-panel .components-panel__body button {
@@ -3799,6 +3823,11 @@ body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-button-group 
   border-color: #3858e9;
   color: #ffffff !important;
 }
+body.wp-admin:not(.gutenberg-editor-page) #poststuff .postbox .acf-field-group .acf-fields {
+  background-color: #191f25;
+  border-color: #191f25;
+  color: #bbc8d4;
+}
 body.wp-admin:not(.gutenberg-editor-page) .acf-box {
   background-color: #191f25;
   border-color: #191f25;
@@ -4331,6 +4360,16 @@ body.wp-admin:not(.gutenberg-editor-page) #wpt_settings_page legend {
   background-color: #191f25;
   border-color: #191f25;
   color: #bbc8d4;
+}
+
+body.wp-admin:not(.gutenberg-editor-page) .kadence_blocks_dash_head {
+  background-color: #191f25;
+}
+body.wp-admin:not(.gutenberg-editor-page) .kadence_blocks_dash .kadence_blocks_dashboard_main {
+  background-color: #32373c;
+}
+body.wp-admin:not(.gutenberg-editor-page) .kadence_blocks_dash .side-panel .sidebar-section {
+  background-color: #32373c;
 }
 
 /*# sourceMappingURL=dark-mode-dashboard.css.map */

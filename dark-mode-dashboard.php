@@ -6,13 +6,13 @@
  * Author: Naiche
  * Author URI: https://profiles.wordpress.org/naiches/
  * Text Domain: dark-mode-dashboard
- * Version: 1.2.1
+ * Version: 1.2.3
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
     die();
 }
-define('DARK_MODE_DASHBOARD_VERSION', '1.2.1');
+define('DARK_MODE_DASHBOARD_VERSION', '1.2.3');
 define('DARK_MODE_DASHBOARD_PLUGIN_PATH', plugin_dir_url(__FILE__));
 
 
@@ -72,4 +72,72 @@ function dark_mode_dashboard_save_user_profile_fields( $user_id ) {
     }
 
     update_user_meta( $user_id, 'dark_mode_dashboard', $_POST['dark_mode_dashboard'] );
+}
+
+
+
+/**
+* Admin toolbar add toggle
+*/
+function dark_mode_dashboard_toolbar_link($wp_admin_bar) {
+    $args = array(
+        'id' => 'dark-mode-dashboard',
+        'title' => 'Dark Mode Toggle',
+        'href' => '#',
+        'meta' => array(
+            'class' => 'dark-mode-dashboard', 
+            'title' => 'Dark Mode Toggle'
+        )
+    );
+    $wp_admin_bar->add_node($args);
+}
+add_action('admin_bar_menu', 'dark_mode_dashboard_toolbar_link', 999);
+
+
+
+/**
+* Admin toolbar toggle, trigger the ajax handler function using jQuery
+*/
+add_action( 'admin_footer', 'dark_mode_dashboard_toolbar_change_js' );
+function dark_mode_dashboard_toolbar_change_js() { ?>
+  <script type="text/javascript" >
+    jQuery("li#wp-admin-bar-dark-mode-dashboard .ab-item").on( "click", function() {
+        var data = {'action': 'dark_mode_dashboard_change_user_profile_mode',};
+
+        /* since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php */
+        jQuery.post(ajaxurl, data, function(response){
+            document.location.reload(true);
+        });
+    });
+  </script>
+  <style>
+    #wpadminbar #wp-admin-bar-dark-mode-dashboard .ab-item:before {
+        content: "\f339";
+        top: 2px;
+    }
+  </style> <?php
+}
+
+
+
+/**
+* Admin toolbar toggle, hook and define ajax handler function
+*/
+add_action( 'wp_ajax_dark_mode_dashboard_change_user_profile_mode', 'dark_mode_dashboard_change_user_profile_mode' );
+function dark_mode_dashboard_change_user_profile_mode() {
+    global $wpdb; // this is how you get access to the database
+
+    $user_id = get_current_user_id();
+
+    if ( !current_user_can( 'edit_user', $user_id ) ) { 
+        return false; 
+    }
+
+    if(get_user_meta($user_id, 'dark_mode_dashboard', true) == 1) {
+        update_user_meta( $user_id, 'dark_mode_dashboard', '' );
+    } else {
+        update_user_meta( $user_id, 'dark_mode_dashboard', 1 );
+    }
+
+    wp_die(); // this is required to terminate immediately and return a proper response
 }
